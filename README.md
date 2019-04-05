@@ -16,7 +16,7 @@ App ui
 ![](https://i.imgur.com/ikn4OMY.gif)
 
 - Data stored locally.
-- You can add, delete and update current weather by city Name
+- You can add, delete and update current weather by city name
 
 used libs
 - [React](https://github.com/facebook/react)
