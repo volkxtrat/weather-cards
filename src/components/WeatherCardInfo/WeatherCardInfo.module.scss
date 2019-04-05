@@ -1,0 +1,21 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.wrapperCard {
+  width: 400px;
+}
+
+.key {
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1rem;
+  margin-right: 0.5rem;
+  white-space: nowrap;
+}
+
+.keyIcon {
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,51 @@
+.button {
+  line-height: 1.75;
+  border-radius: 0.28rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  margin-right: 8px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  &:last-child {
+    margin-right: 0;
+  }
+  &:hover {
+    &:before {
+      content: "";
+      display: block;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: var(--c-hover);
+    }
+  }
+  &:disabled {
+    cursor: not-allowed;
+    background: var(--c-disabled);
+    &:hover {
+      background: var(--c-disabled);
+    }
+  }
+}
+
+.primary {
+  background: var(--c-primary);
+  color: #fff;
+}
+
+.secondary {
+  color: var(--c-primary);
+  border: 1px solid var(--c-primary);
+  background: transparent;
+  &:hover,
+  &:focus {
+    background: var(--c-primary);
+    color: rgb(211, 197, 197);
+    transition: all 0.25s ease-out;
+  }
+}

@@ -1,0 +1,22 @@
+.wrapperAdd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.form {
+  display: flex;
+  width: 100%;
+}
+
+.addIcon {
+  margin-right: 0.5rem;
+  padding: 2px;
+  font-size: 1rem;
+}
+
+.error {
+  color: red;
+  padding-top: 0.5rem;
+  font-size: 1rem;
+}

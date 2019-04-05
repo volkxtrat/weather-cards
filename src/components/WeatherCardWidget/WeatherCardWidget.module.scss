@@ -1,0 +1,19 @@
+.mainContent {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.degrees {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--c-secondary);
+}
+
+.weatherIcon {
+  font-size: 4rem;
+  margin-right: 0.5rem;
+}

@@ -1,0 +1,20 @@
+$primary: #212121;
+$secondary: #f44336;
+:root {
+  --c-bg-main: #f6f6f6;
+  --c-bg-paper: #ffffff;
+  // text
+  --c-textPrimary: rgba(0, 0, 0, 0.87);
+
+  --c-success: #4caf50;
+  --c-error: #d50000;
+  --c-warning: #ffeb3b;
+
+  --c-primary: #{$primary};
+  --c-secondary: #{$secondary};
+
+  // actions
+  --c-active: rgba(0, 0, 0, 0.54);
+  --c-hover: rgba(0, 0, 0, 0.08);
+  --c-disabled: rgba(0, 0, 0, 0.26);
+}
