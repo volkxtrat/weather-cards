@@ -17,3 +17,9 @@ App ui
 
 - Data stored locally.
 - You can add, delete and update current weather by city Name
+
+used libs
+- [React](https://github.com/facebook/react)
+- [React-router](https://github.com/ReactTraining/react-router)
+- [Redux](https://github.com/reduxjs/redux)
+- [Redux-thunk](https://github.com/reduxjs/redux-thunk)
