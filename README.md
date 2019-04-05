@@ -13,7 +13,7 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 App ui
-![](https://i.imgur.com/ikn4OMY.gifv)
+![](https://i.imgur.com/ikn4OMY.gif)
 
 - Data stored locally.
 - You can add, delete and update current weather by city Name
